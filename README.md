@@ -1,10 +1,9 @@
 # THC
 
- <h1 align="center"> Thc v2 </h1>
+ <h1 align="center"> Thc v3.0 </h1>
  
  <h2 align="center"> Thc is a advanced phishing tool </h2>
  
- <h3 align="center"> 83 default websites  </h3>
 
 <p align="center">
 <img src="https://cybersapiens.com.au/wp-content/uploads/2021/07/1626357573804.png">  </br>
@@ -44,8 +43,7 @@ cd thc
 bash thc.sh
 ```
 
-</br> </br>
-
+</br> 
 
 Installation on Android OS. </br>
 
@@ -67,10 +65,9 @@ cd thc
 bash thc.sh
 ```
 
-</br> </br>
+</br> 
 
 </p>
-
 
 <p>
  
@@ -84,7 +81,7 @@ Details
  
 </p>
 
-<br/> <br/> <br/> 
+<br/> 
 
 <p>
  
@@ -94,10 +91,7 @@ Easy to use via terminal. </br>
 Automatic cloned services. </br>
 It has 83 ready cloned electronic services, including social networks, e-mails, cloud, multumedia etc. </br>
  
-
 </p>
-
-<br/> <br/> <br/> 
 
 <p>
  
@@ -106,26 +100,20 @@ It has 83 ready cloned electronic services, including social networks, e-mails, 
 Cloning services manually by cloning the service you want.
 Easy to use through browser service.
  
-
 <p> 
  
-<br/> <br/> <br/>  
-
-
 <p>
-
 
 3) Customize Method <br/>
    Customize your sites. <br/>
    
-   Go inside the .customize folder 
+Go inside the .customize folder 
 and create your own customized sites inside folders. <br/>
 Place all your files inside the same folder.  <br/>
 For example folder mysite and inside all files. <br/>
 Then just type the folder name and choose tunnel.  
 
-<br/> <br/>  
-
+<br/> 
 
 4) Tunnels Setup </br>
    It has 3 tunnels to promote these services from the local server to the internet. </br>
