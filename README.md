@@ -111,15 +111,12 @@ Go inside the .customize folder
 and create your own customized sites inside folders. <br/>
 Place all your files inside the same folder.  <br/>
 For example folder mysite and inside all files. <br/>
-Then just type the folder name and choose tunnel.  
-
-<br/> 
+Then just type the folder name and choose tunnel. <br/> 
 
 4) Tunnels Setup </br>
    It has 3 tunnels to promote these services from the local server to the internet. </br>
    It has ready api for the installation of some tunnels.  </br>
    It has url shortener for hide the links </br>
-
 
 5) Email Services </br>
    It has 3 well-known external email services found on the internet where you can visit to send an email. </br>
