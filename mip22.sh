@@ -1,26 +1,4 @@
 #!/bin/bash
-
-
-#
-#  Copyright (c) 2022 Barchampas Gerasimos <makindosxx@gmail.com>.
-#  mip22 is a advanced phishing tool.
-#
-#  mip22 is free software: you can redistribute it and/or modify
-#  it under the terms of the GNU Affero General Public License as published by
-#  the Free Software Foundation, either version 3 of the License, or
-#  (at your option) any later version.
-#
-#  mip22 is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#  GNU Affero General Public License for more details.
-#
-#  You should have received a copy of the GNU Affero General Public License
-#  along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-#
-
-
 #permissions
 
 chmod -R 777 packages.sh
@@ -145,24 +123,37 @@ header(){
 	
     printf "${BLUE}"	
 	cat <<- EOF
-	
-${BLUE}  ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗                        ${RED}     o
-${BLUE}  ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝                        ${RED}    d8b 
-${BLUE}  ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗                        ${RED}   d888b
-${BLUE}  ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║                       ${RED}"Y888888888P" 
-${BLUE}  ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║                        ${RED} "Y88888P"
-${BLUE}  ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝                        ${RED} d88P"Y88b
-${BLUE}  ██╗███╗   ███╗██████╗  ██████╗ ███████╗███████╗██╗██████╗ ██╗     ███████╗███████╗  ${RED}dP"     "Yb
-${BLUE}  ██║████╗ ████║██╔══██╗██╔═══██╗██╔════╝██╔════╝██║██╔══██╗██║     ██╔════╝██╔════╝  
-${BLUE}  ██║██╔████╔██║██████╔╝██║   ██║███████╗███████╗██║██████╔╝██║     █████╗  ███████╗  d88b d88b
-${BLUE}  ██║██║╚██╔╝██║██╔═══╝ ██║   ██║╚════██║╚════██║██║██╔══██╗██║     ██╔══╝  ╚════██║  " dP " dP 
-${BLUE}  ██║██║ ╚═╝ ██║██║     ╚██████╔╝███████║███████║██║██████╔╝███████╗███████╗███████║   dP   dP
-${BLUE}  ═╝╚═╝     ╚═╝╚═╝      ╚═════╝ ╚══════╝╚══════╝╚═╝╚═════╝ ╚══════╝╚══════╝╚══════╝   d888 d888 
-${BLUE}                                                                                         
-        ${CYAN}Mip22 tool made for educational purpose only. 	${ORANGE}Version: 3.3  
-        ${CYAN}The author is not responsible for any malicious use of the program.
-		${CYAN}        Mip Created by ${ORANGE}makdosx ${CYAN}(https://github.com/makdosx) ${WHITE}
-	
+
+${BLUE}                   
+${BLUE}                     ..    ${WHITE}   ..                    		${CYAN}	████████╗██╗  ██╗███████╗ 
+${BLUE}                ...::   .: ${WHITE} ^    .:..               		${CYAN}	╚══██╔══╝██║  ██║██╔════╝
+${BLUE}               ~   :^:   ^ ${WHITE} ^  :      .:.           		${CYAN}	   ██║   ███████║█████╗
+${BLUE}            ....      ~::^ ${WHITE} : . ..      .:          		${CYAN}	   ██║   ██╔══██║██╔══╝
+${BLUE}           ^  :..  .:.   ^ ${WHITE} ^^  .^    ~   ^         		${CYAN}	   ██║   ██║  ██║███████╗
+${BLUE}          :.  .~.  ..:.. ^ ${WHITE} !    ^    ..  ^.        		${CYAN}	   ╚═╝   ╚═╝  ╚═╝╚══════╝									
+${BLUE}         .:: . .^      ~ ^ ${WHITE} ^    ..    ..  .:       
+${BLUE}        :. .:::.^^  ~:   ^ ${WHITE} :  .. .~..^  :   ^      	
+${BLUE}       :^:~       .:  ...^ ${WHITE} !   :^:~  ^.  :   ^     	${CYAN} ██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ ███████╗
+${BLUE}       ^..:.... :..        ${WHITE} ~ ..  .!   :...::.^.    	${CYAN} ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗██╔════╝ 
+${BLUE}      ...  ~:~  ~          ${WHITE} :   ^  :...... 		${CYAN} ███████║███████║██║     █████╔╝ █████╗  ██████╔╝███████╗ 
+${BLUE}     ^  .:.   ::.          ${WHITE} ^   ^       ..:......   	${CYAN} ██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗╚════██║ 
+${BLUE}    .:.~^.    ^.           ${WHITE} ^  :.:      :       ^   	${CYAN} ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║███████║
+${BLUE}    .::.. ::.  ^           ${WHITE} ^  ^               ~   	${CYAN} ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+${BLUE}    .^.:. .~   ^           ${WHITE}  :.::. .:    .: .:::.:  	
+${BLUE}   .: .:   ~  ::           ${WHITE}     ....:.::  ~  .   .:    	${CYAN}
+${BLUE}   :.  ^^..:.   :.         ${WHITE}           ^.: ..  .. :. 	${CYAN}	  ██████╗ ██╗     ██╗   ██╗ ██████╗
+${BLUE}   .:.     .:... ~     ..: ${WHITE} ^::.     .7:      : .^  	${CYAN}	 ██╔════╝ ██║     ██║   ██║ ██╔══██╗
+${BLUE}    ^    ..  .~:.~... :. ^ ${WHITE} ^ .^^:....^    .: .  ~		${CYAN} ██║      ██║     ██║   ██║ ██████╔╝	
+${BLUE}    ^ .:~ .:~.   .^^:.:  ^ ${WHITE} ^   ~^        : .:  :.		${CYAN} ██║      ██║     ██║   ██║ ██╔══██╗	
+${BLUE}     :::. .:.   ^:..::.  ^ ${WHITE} ^    ^..      :. .^.. 		${CYAN} ╚██████╗ ███████╗╚██████╔╝ ██████╔╝
+${BLUE}       ^. ^^: ^^. ...::. ^ ${WHITE} ^ .  ^:    .  :. :. 	 	${CYAN}  ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ 	
+${BLUE}        :    ::   . ...  ^ ${WHITE} : .       ..   .:.      
+${BLUE}         ...:^ :::.:.....^ ${WHITE} !: .:    .^  ...        
+${BLUE}             ...^^.^!~  :^ ${WHITE} ~.  .^~...-^              
+                                              
+       ${CYAN}THC tool made for educational purpose only. 	${ORANGE}Version: 3.3  ${WHITE} - Mohammed Nawaz Sajjad  
+       ${CYAN}The author is not responsible for any malicious use of the program.	
+
 	EOF
 
 	printf "${RESETBG}"	
@@ -1696,8 +1687,6 @@ menu() {
 		${GREEN}[${WHITE}3${GREEN}]${CYAN} Attack Customize
 		${GREEN}[${WHITE}4${GREEN}]${CYAN} Apis
 		${GREEN}[${WHITE}5${GREEN}]${CYAN} Email
-		${GREEN}[${WHITE}6${GREEN}]${CYAN} Vpn
-		${GREEN}[${WHITE}7${GREEN}]${CYAN} Sound (pc only)
 		${GREEN}[${WHITE}0${GREEN}]${ORANGE} Exit
 		
 		
@@ -1716,15 +1705,11 @@ menu() {
 	    4) apis;;
 	    
 	    5) email;;
-	    
-	    6) vpn_setup;;
-	    
-	    7) play_music;;
-	    
+	       
 	    help) help;;
 	      				
 		0)
-		echo -ne "\n${GREEN}[${WHITE}!${GREEN}]${ORANGE} Thanks for using mip22 "${WHITE}
+		echo -ne "\n${GREEN}[${WHITE}!${GREEN}]${ORANGE} Thanks for using thc "${WHITE}
 		sleep 2
 		clear
 		exit 1;;
