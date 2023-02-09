@@ -151,7 +151,7 @@ ${BLUE}        :    ::   . ...  ^ ${WHITE} : .       ..   .:.
 ${BLUE}         ...:^ :::.:.....^ ${WHITE} !: .:    .^  ...        
 ${BLUE}             ...^^.^!~  :^ ${WHITE} ~.  .^~...-^              
                                               
-       ${CYAN}THC tool made for educational purpose only. 	${ORANGE}Version: 3.3  ${WHITE} - Mohammed Nawaz Sajjad  
+       ${CYAN}THC tool made for educational purpose only. 	${ORANGE}Version: 3.3  ${WHITE} - Team Cybersapiens 
        ${CYAN}The author is not responsible for any malicious use of the program.	
 
 	EOF
